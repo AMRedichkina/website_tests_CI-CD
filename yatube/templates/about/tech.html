@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Технологии{% endblock %}
+{% block content %}
+{% comment %} Колонки с отступом сверху и снизу {% endcomment %}
+<div class="row">
+  <div class = "m-3 bg-weight">
+    <h3>Основные технологии, использованные в проекте:</h3>
+  </div>
+  <aside class="col-12 col-md-3">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        Python 3.7
+      </li>
+      <li class="list-group-item">
+        Django 2.2.9
+      </li>
+    </ul>
+  </aside>
+</div>
+{% endblock %} 

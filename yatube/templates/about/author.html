@@ -1,0 +1,79 @@
+
+{% extends 'base.html' %}
+{% block title %} 
+    About author
+{% endblock %}
+  
+{% block content %}
+{% load static %}
+  
+  <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="author-section">
+    <div class="container">
+      <div class="row d-flex no-gutters">
+        
+        <div class="col-md-6 col-lg-6 d-flex">
+          <div class="img-about img d-flex align-items-stretch">
+            <div class="overlay"></div>
+            <div class="img d-flex align-self-stretch align-items-center">
+              <div class = "m-3 bg-light border">
+              <img src={% static "img/about/about.png" %} width="415" height="600">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 d-flex">
+          <div class = "m-3 bg-weight">
+            <div class="py-md-2 w-100 bg-weight px-md-2">
+              <div class="py-md-2">
+                <div class="row justify-content-start pb-3">
+                  <div class="col-md-12 heading-section ftco-animate">
+                    <ul class="about-info mt-4 px-md-0 px-2">
+                    <p>
+                    <li class="d-flex"><span>Привет!<br>
+                    <br>Этот проект создавался как учебный при активной помощи и поддержке <span style="font-weight: 700;"> Яндекс Практикума.</span><br>
+                    <br>Проект может помочь делиться идеями, задумками и мыслями с миром!</span></li>
+                    <br>Меня зовут <span style="font-weight: 700;">Редичкина Александра.</span>
+                    <br>Я закончила юридический факультет СПбГУ и занималась структурированием проектов государственно-частного партнерства. Однако, мир не стоит на месте и в новой реальности требуются кросс-компетенции, что и привело меня в web-разработку. Верю, что&nbsp; <span style="font-weight: 700;">синергия,&nbsp; на первый взгляд, несвязанных компетенций,</span> рождает новые возможности и нестандартные подходы к решению задач.<br>
+                    <br>
+                    <span style="font-weight: 700;">Работа для реализации смелых идей - то, что вдохновляет.</span>
+                    <br>
+                    <br>
+                    <span style=>С уважением,<br>Александра<br>
+                    </p>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="author-section">
+  <div class="container">
+    <div class="row d-flex no-gutters">
+       <div class = "m-0 bg-weight">
+        <div class="col-md-6 col-lg-6 d-flex">
+            <div class="py-md-1 w-100 bg-weight px-md-3">
+              <div class="py-md-1">
+                <div class="row justify-content-start pb-3">
+                  <div class="col-md-12 heading-section ftco-animate">
+                    <h2 class="mb-4">Redichkina Aleksandra</h2>
+                    <ul class="about-info mt-4 px-md-0 px-2">
+                      <li class="d-flex"><span>Дата рождения:</span> <span>Март 12, 1993</span></li>
+                      <li class="d-flex"><span>Город:</span> <span>Санкт-Петербург</span></li>
+                      <li class="d-flex"><span>Email:</span> <span>amredichkina@gmail.com</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+</section>
+{% endblock %}
