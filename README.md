@@ -1,4 +1,4 @@
-# Social Network ('Yatube') project
+# Social Network project
 
 Social network for publishing personal diaries. A site where you can create your page. 
 If you go to it, you can see all the posts of the author. 
